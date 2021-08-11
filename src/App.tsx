@@ -15,7 +15,7 @@ function App() {
             avatar={{ src: "https://cdn-pic.gcxstudio.cn/2021/07/05/5B8804572CA7725395EE48BEF3E1BD77.png" }}
             title="GBCLStudio 官网">
           </PageHeader>
-          <h3>我们的成员</h3>
+          <h2>我们的成员</h2>
           <MemberList></MemberList>
           <Footer></Footer>
         </Col>
