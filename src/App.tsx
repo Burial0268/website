@@ -2,6 +2,7 @@ import React from "react";
 import { PageHeader, Row, Col } from "antd";
 import "antd/dist/antd.css"
 import MemberList from "./components/MemberList"
+import Footer from "./components/Footer"
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           </PageHeader>
           <h3>我们的成员</h3>
           <MemberList></MemberList>
+          <Footer></Footer>
         </Col>
       </Row>
     </div >
