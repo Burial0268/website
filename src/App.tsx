@@ -31,7 +31,6 @@ function App() {
           <Footer></Footer>
         </Col>
       </Row>
-      <AffixTip></AffixTip>
     </div>
   );
 }
