@@ -42,6 +42,7 @@ class MemberList extends Component {
         this.setState({
             isEggVisible: false
         })
+        location.href = "http://never.gonnagi.veyouup.cn/"
     }
 
     render() {
@@ -61,6 +62,7 @@ class MemberList extends Component {
                     title="你发现了彩蛋！"
                     visible={this.state.isEggVisible} onOk={() => { return this.handleEggOK() }}>
                     <p>你已经点击这个标题11.4514（四舍五入）次了，这么臭的次数还有必要点吗（恼</p>
+                    <p>提示：按下确定键有“惊喜”！</p>
                 </Modal>
             </div >
         )
