@@ -1,14 +1,17 @@
 import React from "react";
-import { PageHeader, Row, Col } from "antd";
+import { PageHeader, Row, Col, message } from "antd";
 import "antd/dist/antd.css";
 import Products from "./components/Products";
 import MemberList from "./components/MemberList";;
 import Footer from "./components/Footer";
 import AffixTip from "./components/AffixTip";
+import { useEffect } from "react";
 
 
 function App() {
-
+  useEffect(() => {
+    message.info("当前网站处于未完工状态，当前样式不代表最终品质")
+  })
   return (
     <div>
       <Row>
