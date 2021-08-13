@@ -11,7 +11,7 @@ function App() {
   useEffect(() => {
     //message.info("当前网站处于未完工状态，当前样式不代表最终品质");
     notification["info"]({
-      message: 'Tips',
+      message: "Tips",
       description:
         "我们欢迎您与我们交流，也希望你能加入我们，与我们一起携手共进！",
     });
