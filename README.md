@@ -1,1 +1,2 @@
 # 工作室官网的react版哦！
+你可以通过fork，git clone或者下载release来将这个object部署到您的网站服务器哦
